@@ -1,0 +1,60 @@
+{
+  "allcommand": [],
+  "anonymous": [],
+  "blockcmd": [],
+  "banned": [],
+  "premium": [],
+  "claim": [],
+  "data": [
+    {
+      "name": "premium",
+      "id": []
+    },
+    {
+      "name": "commands",
+      "id": []
+    }
+  ],
+  "sewa": [],
+  "antispam": [],
+  "dashboard": [],
+  "listerror": [],
+  "hittoday": [],
+  "clearchat": [],
+  "users": {},
+  "chats": {
+    "120363260056289060@g.us": {
+      "name": "No sorang",
+      "add": 0,
+      "detect": true,
+      "welcome": false,
+      "sWelcome": false,
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "desc": true,
+      "descUpdate": true,
+      "autostiker": false,
+      "antilink": false,
+      "antilinkgc": false,
+      "antidelete": false,
+      "antiasing": false,
+      "banchat": false,
+      "antitoxic": true,
+      "expired": 0,
+      "antibadword": true,
+      "antispam": true,
+      "antitroli": false,
+      "antivirtex": false,
+      "antiwame": false,
+      "antihidetag": false,
+      "viewonce": true,
+      "nsfw": false,
+      "clear": false,
+      "clearTime": 0
+    }
+  },
+  "settings": {},
+  "kickon": {},
+  "others": {}
+}

@@ -1,3 +1,4 @@
+const { getUserInfo } = require("@replit/repl-auth")
 process.on('uncaughtException', console.error) //Safe Log Error
 require('./setting')
 const { default: makeWASocket, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, msgRetryCounterMap, 
@@ -7,7 +8,7 @@ const fs = require ('fs')
 const { readdirSync, existsSync, watch } = require('fs')
 const logg = require('pino')
 const pino = require('pino')
-const chalk = require('chalk')
+const chalk = require('chalk') 
 const spinnies = new(require('spinnies'))()
 const path = require('path')
 const readline = require("readline");
@@ -21,6 +22,7 @@ const PhoneNumber = require('awesome-phonenumber')
 const usePairingCode = true
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
 const { isUrl, generateMessageTag, getBuffer, getSizeMedia, getRandom, fetchJson, await, sleep } = require('./lib/myfunc')
+const user = getUserInfo(req)
 
 const express = require('express')
 const app = express()
@@ -37,6 +39,7 @@ app.listen(3000, () => {
     chalk.white('Connected')
   );
 });
+
 const simple = require('./lib/simple') 
 const question = (text) => {
   const rl = readline.createInterface({

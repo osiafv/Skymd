@@ -11,10 +11,10 @@
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
-    "express": "^4.19.2",
     "@bochilteam/scraper": "^2.0.0",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@hapi/boom": "^10.0.1",
+    "@replit/repl-auth": "^1.0.0",
     "@whiskeysockets/baileys": "^6.3.0",
     "awesome-phonenumber": "^5.10.0",
     "axios": "^1.4.0",

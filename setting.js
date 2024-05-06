@@ -3,6 +3,10 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
+USERNAME=skyzbott@gmail.com
+PASSWORD=Risky132
+TOKEN=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
+
 global.owner = ['6287722854496','6281248249833']
 global.premium = ['6281248249833']
 global.ownername = 'Riz'

@@ -1,4 +1,3 @@
-const { getUserInfo } = require("@replit/repl-auth");
 process.on("uncaughtException", console.error); //Safe Log Error
 require("./setting");
 const {

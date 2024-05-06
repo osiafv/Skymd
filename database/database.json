@@ -51,7 +51,10 @@
       "viewonce": true,
       "nsfw": false,
       "clear": false,
-      "clearTime": 0
+      "clearTime": 0,
+      "stiker": false,
+      "antiLink": true,
+      "antiBadword": true
     }
   },
   "settings": {},
